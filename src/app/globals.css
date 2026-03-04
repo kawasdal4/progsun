@@ -41,75 +41,94 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Basarnas Brand Colors */
+  --color-basarnas-blue: #0066CC;
+  --color-basarnas-orange: #FF6B00;
+  --color-basarnas-green: #00A651;
+  --color-basarnas-dark: #1A3A5C;
+  --color-basarnas-light: #E8F4FF;
 }
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --background: #F8FAFC;
+  --foreground: #1E293B;
+  --card: #FFFFFF;
+  --card-foreground: #1E293B;
+  --popover: #FFFFFF;
+  --popover-foreground: #1E293B;
+  
+  /* Primary: Basarnas Blue */
+  --primary: #0066CC;
+  --primary-foreground: #FFFFFF;
+  
+  /* Secondary: Basarnas Orange */
+  --secondary: #FFF4E6;
+  --secondary-foreground: #FF6B00;
+  
+  --muted: #F1F5F9;
+  --muted-foreground: #64748B;
+  
+  /* Accent: Basarnas Green */
+  --accent: #E6F7ED;
+  --accent-foreground: #00A651;
+  
+  --destructive: #DC2626;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #0066CC;
+  
+  /* Chart colors */
+  --chart-1: #0066CC;
+  --chart-2: #FF6B00;
+  --chart-3: #00A651;
+  --chart-4: #3B82F6;
+  --chart-5: #F59E0B;
+  
+  /* Sidebar */
+  --sidebar: #1A3A5C;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #0066CC;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #2D4A6C;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #2D4A6C;
+  --sidebar-ring: #0066CC;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  --card: #1E293B;
+  --card-foreground: #F8FAFC;
+  --popover: #1E293B;
+  --popover-foreground: #F8FAFC;
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
+  --secondary: #334155;
+  --secondary-foreground: #F8FAFC;
+  --muted: #334155;
+  --muted-foreground: #94A3B8;
+  --accent: #334155;
+  --accent-foreground: #F8FAFC;
+  --destructive: #EF4444;
+  --border: #334155;
+  --input: #334155;
+  --ring: #3B82F6;
+  --chart-1: #3B82F6;
+  --chart-2: #F59E0B;
+  --chart-3: #10B981;
+  --chart-4: #8B5CF6;
+  --chart-5: #EF4444;
+  --sidebar: #0F172A;
+  --sidebar-foreground: #F8FAFC;
+  --sidebar-primary: #3B82F6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #1E293B;
+  --sidebar-accent-foreground: #F8FAFC;
+  --sidebar-border: #334155;
+  --sidebar-ring: #3B82F6;
 }
 
 @layer base {
@@ -119,4 +138,397 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom scrollbar for sidebar and lists */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Document view specific styles */
+.document-content {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.8;
+}
+
+.document-content .bab-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 2rem 0 1rem;
+}
+
+.document-content .pasal {
+  margin: 1rem 0;
+}
+
+.document-content .ayat {
+  margin-left: 2rem;
+  text-indent: -2rem;
+}
+
+/* Status badge colors */
+.status-draft {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.status-review {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.status-revision {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.status-pending {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.status-final {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.status-revoked {
+  background-color: #F3F4F6;
+  color: #6B7280;
+}
+
+/* ============ OFFICIAL DOCUMENT FORMAT - A4 STANDARDS ============ */
+
+/* Base document formatting */
+.document-official {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: black;
+  background: white;
+}
+
+/* A4 Page Container */
+.a4-page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 4cm 3cm 3cm 4cm; /* Top, Right, Bottom, Left - official margins */
+  box-sizing: border-box;
+  background: white;
+}
+
+/* Text alignment for official documents */
+.text-justify-official {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Hanging indent for ayat/huruf/angka */
+.hanging-indent {
+  padding-left: 1.25cm;
+  text-indent: -1.25cm;
+}
+
+/* ============ PRINT STYLES FOR OFFICIAL DOCUMENT FORMAT ============ */
+@media print {
+  /* Set page size and margins */
+  @page {
+    size: A4;
+    margin: 4cm 3cm 3cm 4cm; /* Top, Right, Bottom, Left */
+  }
+
+  /* First page - no page number */
+  @page :first {
+    margin-bottom: 3cm;
+  }
+
+  /* Hide non-print elements */
+  .no-print,
+  nav,
+  aside,
+  button,
+  .sidebar,
+  header,
+  footer,
+  .card:not(.document-card),
+  input,
+  select,
+  textarea {
+    display: none !important;
+  }
+
+  /* Body reset for print */
+  body {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+    color: black !important;
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Document container */
+  .document-print-container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* Text alignment */
+  .text-justify {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  }
+
+  /* Page breaks */
+  .page-break-before {
+    page-break-before: always !important;
+  }
+
+  .page-break-after {
+    page-break-after: always !important;
+  }
+
+  .pdf-page {
+    page-break-before: always !important;
+  }
+
+  /* Avoid breaking inside */
+  .avoid-break {
+    page-break-inside: avoid !important;
+  }
+
+  /* Table styling */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  table td, table th {
+    border: 1px solid black !important;
+    padding: 0.2cm !important;
+  }
+
+  /* Links */
+  a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* Colors */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Page numbering - not on first page */
+  .page-number-print::after {
+    content: "- " counter(page) " -";
+    position: running(footer);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+  }
+
+  @page {
+    @bottom-center {
+      content: "- " counter(page) " -";
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 10pt;
+    }
+  }
+
+  @page :first {
+    @bottom-center {
+      content: none;
+    }
+  }
+}
+
+/* ============ PDF GENERATION HELPER CLASSES ============ */
+.pdf-document {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 4cm 3cm 3cm 4cm;
+  background: white;
+  box-sizing: border-box;
+}
+
+.pdf-page {
+  width: 21cm;
+  min-height: 29.7cm;
+  page-break-after: always;
+  page-break-inside: avoid;
+}
+
+/* A4 Preview mode for web */
+.a4-preview {
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 0 auto;
+  padding: 4cm 3cm 3cm 4cm;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+/* Official document formatting helpers */
+.doc-header-center {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.doc-text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.doc-indent-125 {
+  text-indent: 1.25cm;
+}
+
+.doc-hanging-indent {
+  margin-left: 1.25cm;
+  text-indent: -1.25cm;
+}
+
+/* BAB formatting */
+.bab-header {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1cm;
+  margin-bottom: 0.5cm;
+}
+
+.bab-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5cm;
+}
+
+/* Bagian formatting */
+.bagian-header {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.75cm;
+  margin-bottom: 0.25cm;
+}
+
+/* Pasal formatting */
+.pasal-header {
+  font-weight: bold;
+  margin-bottom: 0.25cm;
+}
+
+/* Signature block formatting */
+.signature-block {
+  text-align: right;
+  margin-top: 2cm;
+}
+
+.signature-name {
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* Lampiran header - right aligned */
+.lampiran-header {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12pt;
+  margin-bottom: 1cm;
+  line-height: 1.2;
+}
+
+.lampiran-header p {
+  margin: 0;
+}
+
+.lampiran-header .lampiran-number {
+  font-weight: bold;
+}
+
+/* Page number display */
+.page-number-display {
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 1cm;
+}
+
+.page-number-display::before {
+  content: "- ";
+}
+
+.page-number-display::after {
+  content: " -";
+}
+
+/* Menimbang/Mengingat table layout */
+.konsiderans-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.konsiderans-table td {
+  vertical-align: top;
+  padding: 0;
+}
+
+.konsiderans-label {
+  width: 2.5cm;
+  font-weight: bold;
+}
+
+.konsiderans-colon {
+  width: 0.5cm;
+}
+
+.konsiderans-content {
+  width: auto;
+}
+
+.konsiderans-item {
+  margin-bottom: 0.1cm;
+}
+
+.konsiderans-item-letter {
+  width: 1.25cm;
+  display: inline-block;
+}
+
+.konsiderans-item-number {
+  width: 1cm;
+  display: inline-block;
 }

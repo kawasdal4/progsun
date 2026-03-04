@@ -7,6 +7,15 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'pub-577a5bbe060a49b7af03e7d6731c196b.r2.dev',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
